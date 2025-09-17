@@ -27,12 +27,22 @@ void ejemplo4() {
     }
     printf("\n");
 }
+struct Persona {
+    char nombre[20];
+    int edad;
+};
+void ejemplo5() {
+    struct Persona p1 = {"Ana", 30};
+    struct Persona *ptr = &p1;
+    printf("Ejemplo 5: %s tiene %d años\n", ptr->nombre, ptr->edad);
+}
     int main() {
     ejemplo1();
     ejemplo2();
     ejemplo3();
     ejemplo4();
+    ejemplo5();
     return 0;
 }
-
+ 
 
