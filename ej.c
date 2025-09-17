@@ -36,6 +36,7 @@ void ejemplo5() {
     struct Persona *ptr = &p1;
     printf("Ejemplo 5: %s tiene %d años\n", ptr->nombre, ptr->edad);
 }
+<<<<<<< HEAD
 void ejemplo6() {
     int x = 7;
     int *p = &x;
@@ -75,18 +76,23 @@ void ejemplo10() {
     operacion = resta;
     printf("Ejemplo 10: Resta = %d\n", operacion(5, 2));
 }
+=======
+>>>>>>> 60fa446ae98a6910141a6da51ee4b7bcd5e5e51d
     int main() {
     ejemplo1();
     ejemplo2();
     ejemplo3();
     ejemplo4();
     ejemplo5();
+<<<<<<< HEAD
     ejemplo6();
     ejemplo7();
     ejemplo8();
     ejemplo9();
     ejemplo10();
+=======
+>>>>>>> 60fa446ae98a6910141a6da51ee4b7bcd5e5e51d
     return 0;
 }
-
+ 
 
